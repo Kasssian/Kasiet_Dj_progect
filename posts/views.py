@@ -8,7 +8,7 @@ def hello(request):
 
 
 def good_bay(request):
-    #kasiet
+    #kasiet1
     return HttpResponse(f'Good bay {request.user}!')
 
 
