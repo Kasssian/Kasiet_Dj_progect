@@ -8,7 +8,7 @@ def hello(request):
 
 
 def good_bay(request):
-    return HttpResponse(f'<h1 style="color:red; text-align:center;font-size:500%;font-family: sans-serif";">Good bay {request.user}!</h1>')
+    return HttpResponse(f'Good bay {request.user}!')
 
 
 def now_date(request):
