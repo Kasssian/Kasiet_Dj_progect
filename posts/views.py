@@ -8,6 +8,7 @@ def hello(request):
 
 
 def good_bay(request):
+    #kasiet
     return HttpResponse(f'Good bay {request.user}!')
 
 
