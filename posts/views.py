@@ -15,3 +15,8 @@ def now_date(request):
     return HttpResponse(datetime.now().date())
 
 
+
+
+
+
+
